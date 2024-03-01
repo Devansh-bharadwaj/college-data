@@ -17,7 +17,13 @@ const Table = () => {
     setLoading(true);
     try {
       const newData = await getCollegeData(page);
-      setData((prevData) => [...prevData, ...newData.data]);
+      if (page === 1) {
+        setData(newData.data);
+      }
+      if (page > 1) {
+        setData((prevData) => [...prevData, ...newData.data]);
+      }
+
       setCount(newData?.count);
     } catch (error) {
       console.error("Error fetching data:", error);
@@ -26,17 +32,7 @@ const Table = () => {
   };
 
   useEffect(() => {
-    // Only fetch initial data on mount, not when `page` changes
-    if (page === 1) {
-      handleFetchData();
-    }
-  }, []);
-
-  useEffect(() => {
-    // Fetch data when `page` changes
-    if (page > 1) {
-      handleFetchData();
-    }
+    handleFetchData();
   }, [page]);
 
   const sortData = (sortedData) => {
@@ -49,7 +45,7 @@ const Table = () => {
     return number + (suffixes[(v - 20) % 10] || suffixes[v] || suffixes[0]);
   }
 
-  const handelInfiniteScroll = () => {
+  const handelInfiniteScroll = async () => {
     try {
       if (
         window.innerHeight + document.documentElement.scrollTop + 1 >=
@@ -67,6 +63,7 @@ const Table = () => {
     window.addEventListener("scroll", handelInfiniteScroll);
     return () => window.removeEventListener("scroll", handelInfiniteScroll);
   }, []);
+
   return (
     <div className="main">
       <Sort sortData={sortData} data={data} />
