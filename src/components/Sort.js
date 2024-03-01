@@ -1,47 +1,76 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
+import { getAllCollegeData } from "../utils/GetCollegeData";
 
 const Sort = ({ sortData, data }) => {
   const [sortBy, setSortBy] = useState(null);
   const [filteredData, setFilteredData] = useState([]);
   const [searchTerm, setSearchTerm] = useState("");
 
+  const handleFetchData = async () => {
+    const collegeData = await getAllCollegeData();
+    setFilteredData(collegeData);
+  };
+  const handleSearch = () => {
+    let filtered;
+    if (searchTerm.trim() === "") {
+      filtered = filteredData;
+    } else {
+      filtered = filteredData.filter((item) => {
+        const matchName =
+          item.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+          searchTerm.toLowerCase().includes(item.name.toLowerCase());
+
+        return matchName;
+      });
+    }
+    sortData(filtered);
+  };
+
+  useEffect(() => {
+    handleSearch();
+  }, [searchTerm]);
+  useEffect(() => {
+    handleFetchData();
+  }, []);
+  // console.log(data);
+
   const handleSortData = (e) => {
     const selectedOption = e.target.value;
     setSortBy(selectedOption);
-    if (data && Array.isArray(data.colleges)) {
+    if (data && Array.isArray(data)) {
       let sortedData;
       switch (selectedOption) {
         case "Low CD Rating":
-          sortedData = [...data.colleges].sort((a, b) => a.CDRank - b.CDRank);
+          sortedData = [...data].sort((a, b) => a.CDRank - b.CDRank);
           break;
         case "High CD Rating":
-          sortedData = [...data.colleges].sort((a, b) => b.CDRank - a.CDRank);
+          sortedData = [...data].sort((a, b) => b.CDRank - a.CDRank);
           break;
         case "Highest Fees":
-          sortedData = [...data.colleges].sort((a, b) => {
+          sortedData = [...data].sort((a, b) => {
             const feesA = parseInt(a.fees.replace(/,/g, ""));
             const feesB = parseInt(b.fees.replace(/,/g, ""));
             return feesB - feesA;
           });
           break;
         case "Lowest Fees":
-          sortedData = [...data.colleges].sort((a, b) => {
+          sortedData = [...data].sort((a, b) => {
             const feesA = parseInt(a.fees.replace(/,/g, ""));
             const feesB = parseInt(b.fees.replace(/,/g, ""));
             return feesA - feesB;
           });
           break;
         case "User Reviews":
-          sortedData = [...data.colleges].sort((a, b) => {
+          sortedData = [...data].sort((a, b) => {
             const aReviews = parseFloat(a.userReviews[0]?.reviews) || 0;
             const bReviews = parseFloat(b.userReviews[0]?.reviews) || 0;
             return bReviews - aReviews;
           });
           break;
         default:
-          sortedData = data.colleges;
+          sortedData = data;
       }
-      sortData({ colleges: sortedData });
+      sortData(sortedData);
     }
   };
 
@@ -83,6 +112,14 @@ const Sort = ({ sortData, data }) => {
       >
         User Review
       </button>
+      <input
+        className="search-input"
+        type="text"
+        id="floatingInput"
+        placeholder="Search by Name"
+        value={searchTerm}
+        onChange={(e) => setSearchTerm(e.target.value)}
+      />
     </div>
   );
 };

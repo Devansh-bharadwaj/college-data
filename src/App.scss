@@ -5,10 +5,14 @@ body {
 }
 
 .main {
-    margin: 100px;
+    margin: 50px;
 }
 p {
     margin-top: 6px;
+    color: gray;
+}
+.f-12 {
+    font-size: 12px;
 }
 
 table {
@@ -53,7 +57,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #f2f6ff;
+    background-color: #f9fbff;
 }
 .course_box {
     position: relative;
@@ -66,13 +70,12 @@ tr:nth-child(even) {
     &::before {
         content: "";
         position: absolute;
-        top: 0px;
-        width: 0;
-        height: 0;
-        border-style: solid;
-        border-width: 31px 0 29px 23px;
-        border-color: transparent transparent transparent #ffe7ba;
-        right: -22px;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        border-top: 30px solid transparent;
+        border-bottom: 30px solid transparent;
+        border-left: 10px solid #ffe7ba;
     }
     .fa-chevron-down {
         display: inline-block;
@@ -209,15 +212,19 @@ tr:nth-child(even) {
 .review {
     margin-left: 8px;
     color: teal;
-    font-weight: 600;
 }
 
 .sorting {
     display: flex;
     justify-content: space-between;
     margin-bottom: 27px;
-    width: 48%;
     align-items: center;
+    padding: 20px 0;
+    background-color: white;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     div {
         color: #222;
         font-weight: 600;
@@ -236,4 +243,94 @@ tr:nth-child(even) {
 .active {
     background-color: teal;
     color: #fff;
+}
+.featured-row {
+    background-color: #fff3eb !important;
+}
+.p-relative {
+    position: relative;
+    padding-top: 30px;
+    span {
+        position: absolute;
+        top: 2px;
+        font-size: 10px;
+        color: white;
+        left: 56px;
+    }
+    .featured-flag {
+        position: absolute;
+        top: -6px;
+        left: auto;
+        right: auto;
+        width: 144px;
+    }
+}
+.rank_box {
+    p {
+        color: teal;
+        span {
+            color: orange;
+        }
+    }
+}
+.india-today {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    img {
+        width: 56px;
+        filter: grayscale(1);
+    }
+}
+.news-channels {
+    background: #eaf9fe;
+    border-left: 2px solid #42aee8;
+    gap: 4px;
+    width: 145px;
+    padding: 4px 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: relative;
+    > span {
+        display: inline-flex;
+        color: skyblue;
+        font-weight: 500;
+        span {
+            background-color: white;
+            border: 1px solid white;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            overflow: hidden;
+            img {
+                height: 20px;
+                width: 20px;
+                max-height: 20px;
+                max-width: 20px;
+            }
+        }
+        .ml-8 {
+            margin-left: -8px;
+        }
+    }
+    &::after {
+        content: "";
+        position: absolute;
+        left: 100%;
+        top: 50%;
+        transform: translateY(-50%);
+        border-top: 14px solid transparent;
+        border-bottom: 14px solid transparent;
+        border-left: 9px solid rgb(234, 249, 254);
+    }
+}
+
+.search-input {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid teal;
+    width: 30%;
 }
