@@ -1,0 +1,86 @@
+{
+  "colleges": [
+    {
+      "CDRank": 3,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Madras - Indian Institute of Technology - [IITM], Chennai",
+      "location": "Chennai, Tamil Nadu",
+      "approvedBy": ["AICTE"],
+      "course": "B.Tech Computer Science Engineering",
+      "cutoff": "144",
+      "fees": "2,09,550",
+      "averagePackage": "21,48,000",
+      "highestPackage": "1,98,00,000",
+      "userReviews": [
+        { "reviews": "8.6", "totalReviews": "289", "bestIn": "Social Life" }
+      ],
+      "ranking": [{ "rank": "3rd", "total": "131", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 2,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Delhi - Indian Institute of Technology - [IITD], New Delhi",
+      "location": "New Delhi, Delhi NCR",
+      "approvedBy": [],
+      "course": "B.Tech + M.Tech Mathematics and Computing",
+      "cutoff": "115",
+      "fees": "2,54,650",
+      "averagePackage": "25,82,000",
+      "highestPackage": "2,00,00,000",
+      "userReviews": [
+        { "reviews": "8.7", "totalReviews": "485", "bestIn": "Social Life" }
+      ],
+      "ranking": [{ "rank": "1st", "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 1,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "Parul University, Vadodara",
+      "location": "Vadodara, Gujarat",
+      "approvedBy": ["AICTE", "CDA", "PCI", "GNC"],
+      "fees": "1,49,650",
+      "averagePackage": "4,00,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.1",
+          "totalReviews": "802",
+          "bestIn": "Infrastructure"
+        }
+      ],
+      "ranking": [{ "rank": "99th", "total": "147", "year": "2019" }],
+      "featured": true,
+      "feesType": "Total Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 4,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Bombay - Indian Institute of Technology - [IITB], Mumbai",
+      "location": "Mumbai, Maharashtra",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech Computer Science Engineering",
+      "cutoff": "66",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.8",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": "2nd", "total": "35", "year": "2023" }],
+      "featured": true,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    }
+  ]
+}

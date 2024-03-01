@@ -1,0 +1,239 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    margin: 100px;
+}
+p {
+    margin-top: 6px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+thead tr {
+    background-color: #7cc4ff;
+    color: white;
+}
+.top_head {
+    display: flex;
+    align-items: flex-start;
+}
+.logo {
+    img {
+        width: 40px;
+        height: 40px;
+    }
+}
+.college_name {
+    margin-left: 10px;
+    .name {
+        margin: 0;
+        color: skyblue;
+    }
+    .address {
+        margin: 0;
+        font-size: 12px;
+        color: #222;
+        line-height: 21px;
+    }
+}
+
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f6ff;
+}
+.course_box {
+    position: relative;
+    display: inline-block;
+    padding: 8px 17px 8px 8px;
+    background-color: #ffe7ba;
+    border-left: 3px solid orange;
+    margin-top: 8px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0px;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 31px 0 29px 23px;
+        border-color: transparent transparent transparent #ffe7ba;
+        right: -22px;
+    }
+    .fa-chevron-down {
+        display: inline-block;
+        color: orange;
+        margin: 2px 0px 0 8px;
+    }
+
+    p:nth-child(1) {
+        margin: 0;
+        font-size: 13px;
+        color: orange;
+        display: inline-block;
+    }
+    .cutoff {
+        margin: 0;
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+.td_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    .apply-now {
+        font-size: 13px;
+        i {
+            color: orange;
+            display: inline-block;
+            font-size: 13px;
+        }
+        p {
+            color: orange;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 6px;
+        }
+        img {
+            width: 30px;
+        }
+    }
+    .download-brochure {
+        i {
+            color: teal;
+            display: inline-block;
+            font-size: 13px;
+        }
+        p {
+            color: teal;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 6px;
+        }
+    }
+    .add-to-compare {
+        input {
+            color: #222;
+            display: inline-block;
+            cursor: pointer;
+        }
+        p {
+            color: #222;
+            display: inline-block;
+            font-size: 13px;
+            margin-left: 6px;
+        }
+    }
+}
+.compare_fees {
+    p {
+        color: orange;
+        display: inline-block;
+        font-size: 13px;
+        margin-left: 6px;
+    }
+    img {
+        width: 16px;
+    }
+}
+
+.course_fees {
+    p {
+        font-size: 13px;
+    }
+    .fees {
+        color: teal;
+        font-weight: 600;
+        font-size: 16px;
+        margin-bottom: 4px;
+    }
+    .placement {
+        margin: 0 0 10px 0;
+    }
+}
+.placement_chip {
+    font-size: 11px;
+    line-height: 15px;
+    background: #fff9e4;
+    padding: 2px 6px;
+    color: #c86c80;
+    position: relative;
+    &::before {
+        left: -8px;
+        border-right: 10px solid #fff9e4;
+    }
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        border-top: 10px solid transparent;
+        border-bottom: 10px solid transparent;
+    }
+    &::after {
+        right: -8px;
+        border-left: 10px solid #fff9e4;
+    }
+}
+.review_box {
+    margin-top: 6px;
+    p {
+        font-size: 12px;
+        color: gray;
+    }
+}
+.review_circle {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: orange;
+}
+.review {
+    margin-left: 8px;
+    color: teal;
+    font-weight: 600;
+}
+
+.sorting {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 27px;
+    width: 48%;
+    align-items: center;
+    div {
+        color: #222;
+        font-weight: 600;
+    }
+}
+
+.sort_btn {
+    border: 1px solid teal;
+    border-radius: 8px;
+    padding: 8px;
+    color: teal;
+    background-color: #fff;
+    cursor: pointer;
+    transition: 0.3s all ease-in-out;
+}
+.active {
+    background-color: teal;
+    color: #fff;
+}
