@@ -11,7 +11,6 @@ const Table = () => {
   const [data, setData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [page, setPage] = useState(1);
-  const [count, setCount] = useState(0);
 
   const handleFetchData = async () => {
     setLoading(true);
@@ -23,8 +22,6 @@ const Table = () => {
       if (page > 1) {
         setData((prevData) => [...prevData, ...newData.data]);
       }
-
-      setCount(newData?.count);
     } catch (error) {
       console.error("Error fetching data:", error);
     }

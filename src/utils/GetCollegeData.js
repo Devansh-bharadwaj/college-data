@@ -12,7 +12,7 @@ export const getCollegeData = async (page) => {
   try {
     const response = await fetch("/data.json");
     const json = await response.json();
-    const pageSize = 4;
+    const pageSize = 10;
     const startIndex = (page - 1) * pageSize;
     const endIndex = startIndex + pageSize;
     const totalCount = json.colleges.length;

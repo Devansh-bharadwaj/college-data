@@ -347,6 +347,538 @@
       "featured": false,
       "feesType": "1st Year Fees",
       "placement": "100%"
+    },
+    {
+      "CDRank": 17,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "KNIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "7.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 114, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "90%"
+    },
+    {
+      "CDRank": 18,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIMA - Indian Institute of Management, Ahmedabad",
+      "location": "Ahmedabad, Gujarat",
+      "approvedBy": ["AICTE"],
+      "course": "PGPM",
+      "cutoff": "1700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "9.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 14, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "90%"
+    },
+    {
+      "CDRank": 19,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIM Bangalore - Indian Institute of Management, Bangalore",
+      "location": "Bangalore, Karnataka",
+      "approvedBy": ["AICTE"],
+      "course": "PGPM",
+      "cutoff": "700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "9.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 13, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 20,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIM Bangalore - Indian Institute of Management, Bangalore",
+      "location": "Bangalore, Karnataka",
+      "approvedBy": ["AICTE"],
+      "course": "PGPM",
+      "cutoff": "700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "9.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 13, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 21,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Madras - Indian Institute of Technology - [IITM], Chennai",
+      "location": "Chennai, Tamil Nadu",
+      "approvedBy": ["AICTE"],
+      "course": "B.Tech Computer Science Engineering",
+      "cutoff": "144",
+      "fees": "2,09,550",
+      "averagePackage": "21,48,000",
+      "highestPackage": "1,98,00,000",
+      "userReviews": [
+        { "reviews": "8.6", "totalReviews": "289", "bestIn": "Social Life" }
+      ],
+      "ranking": [{ "rank": 3, "total": "131", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 22,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Delhi - Indian Institute of Technology - [IITD], New Delhi",
+      "location": "New Delhi, Delhi NCR",
+      "approvedBy": [],
+      "course": "B.Tech + M.Tech Mathematics and Computing",
+      "cutoff": "115",
+      "fees": "2,54,650",
+      "averagePackage": "25,82,000",
+      "highestPackage": "2,00,00,000",
+      "userReviews": [
+        { "reviews": "8.7", "totalReviews": "485", "bestIn": "Social Life" }
+      ],
+      "ranking": [{ "rank": 1, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 23,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "Parul University, Vadodara",
+      "location": "Vadodara, Gujarat",
+      "approvedBy": ["AICTE", "CDA", "PCI", "GNC"],
+      "fees": "1,49,650",
+      "averagePackage": "4,00,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.1",
+          "totalReviews": "802",
+          "bestIn": "Infrastructure"
+        }
+      ],
+      "ranking": [{ "rank": 99, "total": "147", "year": "2019" }],
+      "featured": true,
+      "feesType": "Total Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 24,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Bombay - Indian Institute of Technology - [IITB], Mumbai",
+      "location": "Mumbai, Maharashtra",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech Computer Science Engineering",
+      "cutoff": "66",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.8",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 2, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 25,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Madras - Indian Institute of Technology - [IITM], Chennai",
+      "location": "Chennai, Tamil Nadu",
+      "approvedBy": ["AICTE"],
+      "course": "B.Tech Computer Science Engineering",
+      "cutoff": "144",
+      "fees": "2,09,550",
+      "averagePackage": "21,48,000",
+      "highestPackage": "1,98,00,000",
+      "userReviews": [
+        { "reviews": "8.6", "totalReviews": "289", "bestIn": "Social Life" }
+      ],
+      "ranking": [{ "rank": 3, "total": "131", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 26,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIT Delhi - Indian Institute of Technology - [IITD], New Delhi",
+      "location": "New Delhi, Delhi NCR",
+      "approvedBy": [],
+      "course": "B.Tech + M.Tech Mathematics and Computing",
+      "cutoff": "115",
+      "fees": "2,54,650",
+      "averagePackage": "25,82,000",
+      "highestPackage": "2,00,00,000",
+      "userReviews": [
+        { "reviews": "8.7", "totalReviews": "485", "bestIn": "Social Life" }
+      ],
+      "ranking": [{ "rank": 1, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 27,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "Parul University, Vadodara",
+      "location": "Vadodara, Gujarat",
+      "approvedBy": ["AICTE", "CDA", "PCI", "GNC"],
+      "fees": "1,49,650",
+      "averagePackage": "4,00,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.1",
+          "totalReviews": "802",
+          "bestIn": "Infrastructure"
+        }
+      ],
+      "ranking": [{ "rank": 99, "total": "147", "year": "2019" }],
+      "featured": true,
+      "feesType": "Total Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 28,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 29,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 30,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 31,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 32,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 33,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 34,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 35,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 36,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "BIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE", "UGC"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1200",
+      "fees": "2,29,300",
+      "averagePackage": "21,82,000",
+      "highestPackage": "2,20,00,000",
+      "userReviews": [
+        {
+          "reviews": "8.4",
+          "totalReviews": "802",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 4, "total": "35", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 37,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "KNIET Jhansi - Bundelkhand Institute of Engineering & Technology, Jhansi",
+      "location": "Jhansi, Uttar Pradesh",
+      "approvedBy": ["AICTE"],
+      "course": "B.Tech + M.Tech",
+      "cutoff": "1700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "7.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 114, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "90%"
+    },
+    {
+      "CDRank": 38,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIMA - Indian Institute of Management, Ahmedabad",
+      "location": "Ahmedabad, Gujarat",
+      "approvedBy": ["AICTE"],
+      "course": "PGPM",
+      "cutoff": "1700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "9.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 14, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "90%"
+    },
+    {
+      "CDRank": 39,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIM Bangalore - Indian Institute of Management, Bangalore",
+      "location": "Bangalore, Karnataka",
+      "approvedBy": ["AICTE"],
+      "course": "PGPM",
+      "cutoff": "700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "9.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 13, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
+    },
+    {
+      "CDRank": 40,
+      "Logo": "https://doe.iitm.ac.in/wp-content/uploads/2021/06/245-2451831_iit-madras-logo.png",
+      "name": "IIM Bangalore - Indian Institute of Management, Bangalore",
+      "location": "Bangalore, Karnataka",
+      "approvedBy": ["AICTE"],
+      "course": "PGPM",
+      "cutoff": "700",
+      "fees": "2,29,300",
+      "averagePackage": "1,82,000",
+      "highestPackage": "20,00,000",
+      "userReviews": [
+        {
+          "reviews": "9.4",
+          "totalReviews": "102",
+          "bestIn": "Social Life"
+        }
+      ],
+      "ranking": [{ "rank": 13, "total": "335", "year": "2023" }],
+      "featured": false,
+      "feesType": "1st Year Fees",
+      "placement": "100%"
     }
   ]
 }
